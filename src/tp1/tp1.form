@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="groupConducteur">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupSuspension">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupCriminel">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupApprenti">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupValeur">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupRefuse">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupHabitation">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="CardFlipper" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="CardFlipper" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="CardFlipper">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[504, 310]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="infoPersonnelles">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="inputPrenom" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="inputNom" min="-2" pref="250" max="-2" attributes="0"/>
+                                  <Component id="labelNom" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="inputNumeroCivique" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelNumeroCivique" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelApp" min="-2" max="-2" attributes="0"/>
+                                  <Component id="inputApp" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="labelRue" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="inputRue" pref="102" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="labelBirthday" max="32767" attributes="0"/>
+                                          <Component id="inputBirthday" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelVille" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="inputVille" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="labelPostal" min="-2" max="-2" attributes="0"/>
+                                  <Component id="inputSexe" max="32767" attributes="0"/>
+                                  <Component id="labelSexe" min="-2" max="-2" attributes="0"/>
+                                  <Component id="inputPostal" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="boutonProchain1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelPhone" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="labelEmail" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="labelPrenom" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="inputPhone" min="-2" pref="124" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="inputEmail" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelPrenom" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelNom" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="inputNom" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputPrenom" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inputPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputEmail" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelSexe" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelBirthday" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelNumeroCivique" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelRue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inputSexe" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputBirthday" alignment="3" max="32767" attributes="0"/>
+                          <Component id="inputNumeroCivique" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputRue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelApp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelVille" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPostal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inputApp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputPostal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inputVille" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
+                      <Component id="boutonProchain1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelPrenom">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pr&#xe9;nom *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputPrenom">
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelNom">
+              <Properties>
+                <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="inputNom"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nom *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputNom">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSexe">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sexe *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="inputSexe">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Homme"/>
+                    <StringItem index="1" value="Femme"/>
+                    <StringItem index="2" value="Non binaire"/>
+                    <StringItem index="3" value="Ne pr&#xe9;f&#xe8;re pas dire"/>
+                    <StringItem index="4" value="Autre"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPhone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num&#xe9;ro de t&#xe9;l&#xe9;phone *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelEmail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Adresse courriel *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputEmail">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="johnsmith@example.com"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputEmailFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputPhone">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="###-###-####" subtype="-1" type="5"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="123-456-9024"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelBirthday">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date de naissance *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputBirthday">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="####-##-##" subtype="-1" type="5"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="2000-01-01"/>
+                <Property name="toolTipText" type="java.lang.String" value="AAAA-MM-JJ"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputBirthdayFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelNumeroCivique">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Num&#xe9;ro civique *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputNumeroCivique">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelRue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rue *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelApp">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Appartement"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputApp">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelVille">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ville *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPostal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Code postal *"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputPostal">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="U#U #U#" subtype="-1" type="5"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="A1A 1A1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="boutonProchain1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prochaine &#xe9;tape"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonProchain1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputRue">
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputVille">
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="infoParticulieres">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[504, 310]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card3"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelTitre1" max="32767" attributes="0"/>
+                          <Component id="labelTitre2" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="radioOuiConducteurs" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="radioNonConducteurs" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="labelConducteurs" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="radioCriminelOui" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="radioCriminelNon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="radioApprentiOui" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="radioApprentiNon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="radioValeurOui" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="radioValeurNon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="radioRefuseOui" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="radioRefuseNon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labelValeur" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelApprenti" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelCriminel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelRefuse" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelRefuse2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="radioSuspensionOui" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="radioSuspensionNon" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="labelSuspension" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="boutonProchain2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="labelTitre1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Component id="labelTitre2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelConducteurs" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioOuiConducteurs" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioNonConducteurs" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="radioSuspensionNon" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelSuspension" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="radioSuspensionOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="radioCriminelNon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioCriminelOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelCriminel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelApprenti" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioApprentiNon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioApprentiOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelValeur" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioValeurNon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioValeurOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="radioRefuseNon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioRefuseOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelRefuse" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Component id="labelRefuse2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="boutonProchain2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="radioOuiConducteurs">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupConducteur"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioNonConducteurs">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupConducteur"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTitre1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="L&apos;une ou l&apos;autre des situations suivantes s&apos;applique-t-elle &#xe0; vous ou &#xe0; l&apos;un"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTitre2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="des conducteurs?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelConducteurs">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3 conducteurs/v&#xe9;hicules et plus"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSuspension">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Suspension de permis dans les 3 derni&#xe8;res ann&#xe9;es"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelCriminel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="L&apos;existence d&apos;un dossier criminel"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelRefuse">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Police d&apos;assurance auto ou r&#xe9;sidentielle r&#xe9;sili&#xe9;e/refus&#xe9;e dans les 5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelApprenti">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Conducteur principal d&#xe9;tient un permis d&apos;apprenti"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelValeur">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="La valeur de votre v&#xe9;hicule est plus grande ou sup&#xe9;rieure &#xe0; 100,000$"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioSuspensionOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupSuspension"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioSuspensionNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupSuspension"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioCriminelNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupCriminel"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioCriminelOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupCriminel"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioRefuseNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupRefuse"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioValeurOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupValeur"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioApprentiNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupApprenti"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioRefuseOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupRefuse"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioValeurNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupValeur"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioApprentiOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupApprenti"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelRefuse2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="derni&#xe8;res ann&#xe9;es"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="boutonProchain2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prochaine &#xe9;tape"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonProchain2ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="infoVoitures">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[504, 310]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card4"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="inputAutre" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkReperage" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkAntivol" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="checkAntidemarreur" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkAucun" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="checkAutre" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkSonore" min="-2" max="-2" attributes="0"/>
+                                  <Component id="boutonCalcul" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="labelAntivol" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelAutre" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="labelKm" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="inputKm" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="radioHabitationOui" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="radioHabitationNon" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="labelHabitation" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelMake" min="-2" max="-2" attributes="0"/>
+                                      <Component id="comboMake" min="-2" pref="174" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="comboModel" alignment="0" min="-2" pref="174" max="-2" attributes="0"/>
+                                      <Component id="labelModel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="labelYear" min="-2" max="-2" attributes="0"/>
+                                      <Component id="inputYear" min="-2" pref="93" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelMake" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="inputYear" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="comboMake" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="comboModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelKm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelHabitation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inputKm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioHabitationNon" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioHabitationOui" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="labelAntivol" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkReperage" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkAntidemarreur" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkSonore" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkAntivol" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkAucun" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkAutre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="labelAutre" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="inputAutre" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="boutonCalcul" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="37" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelMake">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Marque *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboMake">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Veuillez choisir..."/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="comboFocusGained"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboMakeActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelModel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mod&#xe8;le *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboModel">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Veuillez choisir..."/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="comboFocusGained"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelYear">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ann&#xe9;e *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputYear">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="####" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputYearFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelKm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kilom&#xe9;trage annuel *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="inputKm">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="######" subtype="-1" type="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputKmFocusLost"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelHabitation">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Avez vous une assurance habitation avec nous? *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioHabitationNon">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupHabitation"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="78"/>
+                <Property name="text" type="java.lang.String" value="Non"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="radioHabitationNonFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="radioHabitationOui">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="groupHabitation"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="89"/>
+                <Property name="text" type="java.lang.String" value="Oui"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="radioHabitationOuiFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAntivol">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S&#xe9;lectionnez les syst&#xe8;mes antivols que vous avez fait installer post-vente: *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkReperage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Syst&#xe8;me d&apos;alarme de rep&#xe9;rage"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkAntidemarreur">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Antid&#xe9;marreur"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkSonore">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Alarme sonore"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkAntivol">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Marquage intensif antivol"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkAucun">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aucun"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkAucunActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkAutre">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Autre (SVP d&#xe9;crire)"/>
+              </Properties>
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="checkFocusGained"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkAutreActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelAutre">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Autre:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="inputAutre">
+              <Events>
+                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="inputFocusGained"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="boutonCalcul">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Calculer ma soumission!"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boutonCalculActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

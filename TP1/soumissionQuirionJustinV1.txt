@@ -1,0 +1,24 @@
+Soumission du 2022-10-21
+
+Prénom : Justin
+Nom : Quirion
+Sexe : Homme
+Age : 18
+Date de naissance : 2004-08-17
+
+Numéro de tel. : 819-562-9024
+Adresse courriel : justincquirion@gmail.com
+Adresse : 1630 Riverview
+Ville : Sherbrooke
+Code postal : J1M 0B2
+
+Condition(s) particulières : Non
+Marque de la voiture : Toyota
+Modèle de la voiture : Corolla
+Année de la voiture : 2012
+Valeur de la voiture : 10012$
+Système(s) antivol : 0
+Kilométrage annuel : 20000km
+Rabais applicable si la maison est assurée : Non
+
+Montant de la soumission : $625.00
