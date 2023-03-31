@@ -1,4 +1,4 @@
-# GUIquotingInsurance
+# GUIQuotingInsurance
 
 # FRENCH
 
